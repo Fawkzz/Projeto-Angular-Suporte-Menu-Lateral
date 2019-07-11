@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@import "assets/vendors/css/vendors.min.css";
+@import "assets/vendors/css/tables/datatable/datatables.min.css";
+
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "assets/css/bootstrap-extended.css";
+@import "assets/css/colors.css";
+@import "assets/css/components.css";
+
+@import "assets/css/core/menu/menu-types/horizontal-menu.css";
+@import "assets/css/core/colors/palette-gradient.css";
+@import "assets/css/pages/single-page.css";

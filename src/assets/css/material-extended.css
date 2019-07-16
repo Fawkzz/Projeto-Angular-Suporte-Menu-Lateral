@@ -344,7 +344,7 @@ html body a:hover, html body a:focus {
 }
 
 .material-vertical-layout .app-content .content-header .content-header-dark.bg-img, .material-horizontal-layout .app-content .content-header .content-header-dark.bg-img {
-  background-image : url('../../app-assets/images/backgrounds/breadcrumb.png');
+  background-image : url('../images/backgrounds/breadcrumb.png');
   -webkit-background-size : 100% 100%;
           background-size : 100% 100%;
   width : 100%;

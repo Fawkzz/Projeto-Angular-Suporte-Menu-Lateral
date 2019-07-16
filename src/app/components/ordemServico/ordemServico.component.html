@@ -1,3 +1,1256 @@
-<p>
-  ordem_servico works!
-</p>
+<div class="app-content content">
+    <div class="content-header row">
+        <div class="content-header-light col-12">
+            <div class="row">
+                <div class="content-header-left col-md-9 col-12 mb-2">
+                    <h3 class="content-header-title">Novo Chamado</h3>
+                    <div class="row breadcrumbs-top">
+                        <div class="breadcrumb-wrapper col-12">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a>
+                                </li>
+                                <li class="breadcrumb-item"><a href="#">Form Layouts</a>
+                                </li>
+                                <li class="breadcrumb-item active">Basic Forms
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <div class="content-wrapper">
+        <div class="content-body">
+            <!-- Basic form layout section start -->
+            <div class="content-body">
+                    <!-- Basic form layout section start -->
+                    <div class="row">
+                                                    
+                            <div class="card col-lg-12">
+                                <div class="content-body col-lg-12 col-md-7 ">
+                                    
+                                    
+                                    
+                                    <div class="card-content collpase show">
+                                        
+                                        <ul class="row nav nav-tabs nav-underline">
+                                            <li class="nav-item col-sm-2">
+                                                <a class="nav-link active" id="base-tab1" data-toggle="tab" aria-controls="tab1" href="#tab1" aria-expanded="true">Ordem de Serviço</a>
+                                                
+                                            </li>
+                                            <li class="nav-item col-sm-2">
+                                                <a class="nav-link" id="base-tab2" data-toggle="tab" aria-controls="tab2" href="#tab2" aria-expanded="false">Tratamento</a>
+                                            </li>
+                                            <li class="nav-item col-sm-2">
+                                                <a class="nav-link" id="base-tab3" data-toggle="tab" aria-controls="tab3" href="#tab3" aria-expanded="false">Validação</a>
+                                            </li>
+                                        </ul>
+                                        
+                                        <div class="tab-content px-1 pt-1">
+                                            <div role="tabpanel" class="tab-pane active" id="tab1" aria-expanded="true" aria-labelledby="base-tab1">
+                                                <form class="form">
+                                                    <div class="form-body">
+                                                        
+                                                        
+                                                        <h4 class="form-section"><i class="ft-file-plus"></i>Cadastrar Atendimento</h4>
+                                                        <div class="row">
+                                                            
+                                                            <div class="form-group col-md-2">                                                                    
+                                                                <label for="projectinput5">Código</label>
+                                                                <div class="input-group col-mb-4">                                                                            
+                                                                    <input type="text" class="form-control border-info" placeholder="código cliente" aria-label="código cliente" 
+                                                                    aria-describedby="button-addon2">
+                                                                    
+                                                                </div>                                                                    
+                                                            </div>
+                                                            
+                                                            <div class="form-group col-md-2 md-2">                                                                    
+                                                                <label for="projectinput5">Cliente</label>
+                                                                <div class="input-group col-mb-3">
+                                                                    <input type="text" class="form-control border-info" placeholder="código cliente" aria-label="código cliente" 
+                                                                    aria-describedby="button-addon2">
+                                                                    <div class="input-group-append">
+                                                                        <button type="button" class="btn btn-outline-info mr-1"><i class="la la-search"></i></button>
+                                                                    </div>
+                                                                </div>                                                                    
+                                                            </div>
+                                                            
+                                                            <div class="form-group col-md-2 md-2">
+                                                                <label for="projectinput4">Solicitante</label>
+                                                                <div class="input-group col-mb-3">
+                                                                    <input type="text" class="form-control border-info" placeholder="código Solicitante" aria-label="código Solicitante" aria-describedby="button-addon2">
+                                                                    <div class="input-group-append">
+                                                                        <button type="button" class="btn btn-outline-info mr-1"><i class="la la-search"></i></button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            
+                                                            
+                                                            <div class="form-group col-md-2 md-2">
+                                                                
+                                                                <label for="issueinput3">Inicio Previsto</label>
+                                                                <input type="datetime-local" id="issueinput3" class="form-control border-info" name="dateopened" data-toggle="tooltip" data-trigger="hover" data-placement="top" data-title="Data Abertura" data-original-title="" title="">
+                                                                
+                                                            </div>
+                                                            
+                                                            <div class="form-group col-md-2 md-2">
+                                                                
+                                                                <label for="issueinput4">Fim Previsto</label>
+                                                                <input type="datetime-local" id="issueinput4" class="form-control border-info" name="dateclosed" data-toggle="tooltip" data-trigger="hover" data-placement="top" data-title="Data Fechamento" data-original-title="" title="">
+                                                                
+                                                            </div>                                                                                        
+                                                            
+                                                            <div class="form-group col-md-2 md-2">
+                                                                
+                                                                <label for="projectinput5">Prioridade</label>
+                                                                <select id="projectinput5" name="interested" class="form-control border-info">
+                                                                    <option value="none" selected="" disabled="">Selecione a Prioridade</option>
+                                                                    <option value="alta">Alta</option>
+                                                                    <option value="media">Media</option>
+                                                                    <option value="media">Baixa</option>
+                                                                    
+                                                                </select>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="form-group col-md-2 md-2">
+                                                                
+                                                                <label for="projectinput5">Complexidade</label>
+                                                                <select id="projectinput5" name="interested" class="form-control border-info">
+                                                                    <option value="none" selected="" disabled="">Selecione a Complexidade</option>
+                                                                    <option value="alta">Alta</option>
+                                                                    <option value="media">Media</option> 
+                                                                    <option value="baixa">Baixa</option>                                                                         
+                                                                </select>
+                                                                
+                                                            </div>
+                                                            
+                                                            <div class="form-group col-md-2 md-2">
+                                                                
+                                                                <label for="projectinput5">Categoria (área)</label>
+                                                                <select id="projectinput5" name="interested" class="form-control border-info">
+                                                                    <option value="none" selected="" disabled="">Selecione o Setor</option>
+                                                                    <option value="serviço">Desenvolvimento</option>
+                                                                    <option value="projeto">Banco de Dados</option>                                                                         
+                                                                    <option value="contrato">Venda</option>                                                                         
+                                                                </select>
+                                                                
+                                                            </div>
+                                                            <div class="form-group col-md-2 md-2">
+                                                                
+                                                                <label for="projectinput5">Tipo</label>
+                                                                <select id="projectinput5" name="interested" class="form-control border-info">
+                                                                    <option value="none" selected="" disabled="">Selecione</option>
+                                                                    <option value="serviço">Serviço</option>
+                                                                    <option value="projeto">Projeto</option>                                                                         
+                                                                    <option value="contrato">Contrato</option>                                                                         
+                                                                </select>
+                                                                
+                                                            </div>
+                                                            <div class="form-group col-md-2 md-2">
+                                                                
+                                                                <label for="projectinput5">Contrato/Projeto</label>
+                                                                <div class="input-group col-mb-3">
+                                                                    <input type="text" class="form-control border-info" placeholder="código cliente" aria-label="código cliente" aria-describedby="button-addon2">
+                                                                    <div class="input-group-append">
+                                                                        <button type="button" class="btn btn-outline-info mr-1"><i class="la la-search"></i></button>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                            </div>
+                                                            
+                                                            <div class="form-group col-sm-1">
+                                                                <label for="projectinput4">Horas (Usada)</label>
+                                                                <div class="input-group col-mb-3">
+                                                                    <input type="text" class="form-control border-info" placeholder="código responsável" aria-label="código responsável" aria-describedby="button-addon2">                                                                                                            
+                                                                </div>
+                                                            </div> 
+                                                            
+                                                            <div class="form-group col-sm-1">
+                                                                <label for="projectinput4">Horas (Dispo)</label>
+                                                                <div class="input-group col-mb-3">
+                                                                    <input type="text" class="form-control border-info" placeholder="código responsável" aria-label="código responsável" aria-describedby="button-addon2">                                                                                                            
+                                                                </div>
+                                                            </div> 
+                                                            
+                                                            
+                                                            <div class="form-group col-md-2 md-2">
+                                                                <label for="projectinput4">Responsável (TEC)</label>
+                                                                <div class="input-group col-mb-3">
+                                                                    <input type="text" class="form-control border-info" placeholder="código responsável" aria-label="código responsável" aria-describedby="button-addon2">
+                                                                    <div class="input-group-append">
+                                                                        <button type="button" class="btn btn-outline-info mr-1"><i class="la la-search"></i></button>
+                                                                    </div>
+                                                                </div>
+                                                            </div> 
+                                                            
+                                                        </div>                                                                                    
+                                                        <div class="row">
+                                                            <div class="form-group col-12 sm-2 form-group-style">
+                                                                <label for="projectinput9">
+                                                                    <i class="material-icons">question_answer</i> 
+                                                                    Observações
+                                                                </label>
+                                                                <textarea id="projectinput9" rows="5" class="form-control" name="comment" placeholder="Digite Aqui Sua Observação"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="form-group col-12 sm-2">
+                                                                <label>Seleciona o arquivo</label>
+                                                                <label id="projectinput8" class="file center-block">
+                                                                    <input type="file" id="file">
+                                                                    <span class="file-custom"></span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="form-actions">
+                                                            <button type="button" class="btn btn-warning mr-1">
+                                                                <i class="ft-x"></i> Cancelar
+                                                            </button>
+                                                            <button type="submit" class="btn btn-success">
+                                                                <i class="ft-save"></i> Salvar
+                                                            </button>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="card">
+                                                        <div class="form-actions-control">
+                                                            <h2 class="form-section text-left "><i class="ft-eye"></i> Tarefas</h2>
+                                                            <div class="form-group col-sm-3 float-right">
+                                                                
+                                                                <!-- Button trigger modal -->
+                                                                <button type="button" class="btn btn-blue bg-accent-4 btn-min-width float-right" data-toggle="modal" data-target="#bootstrap">
+                                                                    <i class="ft-file-plus"> </i>Nova Tarefa
+                                                                </button>
+                                                                
+                                                                <!-- Modal -->
+                                                                <div class="modal fade text-left" id="bootstrap" tabindex="-1" role="dialog" aria-labelledby="myModalLabel35" style="display: none;" aria-hidden="true">
+                                                                    <div class="modal-dialog modal-lg" role="document">
+                                                                        <div class="modal-content">
+                                                                            <div class="modal-header">
+                                                                                <h3 class="modal-title" id="myModalLabel35"> Lançamento de Tarefa</h3>
+                                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                                    <span aria-hidden="true">×</span>
+                                                                                </button>
+                                                                            </div>
+                                                                            <form>
+                                                                                <div class="modal-body">
+                                                                                    
+                                                                                    
+                                                                                    <form class="form">
+                                                                                        <div class="form-body floating-label-form-group">
+                                                                                            
+                                                                                            <div class="row">
+                                                                                                
+                                                                                                <div class="form-group col-sm-6">
+                                                                                                    <label for="issueinput1">Nome da Tarefa</label>
+                                                                                                    <input type="text" id="issueinput1" class="form-control" placeholder="Digite o Nome da Atividade" name="issuetitle" data-toggle="tooltip" data-trigger="hover" data-placement="top" data-title="Issue Title" data-original-title="" title="">
+                                                                                                </div>
+                                                                                                
+                                                                                                <div class="form-group col-sm-6">
+                                                                                                    <label for="issueinput2">Responsável</label>
+                                                                                                    <input type="text" id="issueinput2" class="form-control" placeholder="Digite o Responsável" name="openedby" data-toggle="tooltip" data-trigger="hover" data-placement="top" data-title="Opened By" data-original-title="" title="">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            
+                                                                                            <div class="row">
+                                                                                                <div class="col-md-6">
+                                                                                                    <div class="form-group">
+                                                                                                        <label for="issueinput3">Data da Abertura</label>
+                                                                                                        <input type="date" id="issueinput3" class="form-control" name="dateopened" data-toggle="tooltip" data-trigger="hover" data-placement="top" data-title="Date Opened" data-original-title="" title="">
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="col-md-6">
+                                                                                                    <div class="form-group">
+                                                                                                        <label for="issueinput4">Data do Fechamento</label>
+                                                                                                        <input type="date" id="issueinput4" class="form-control" name="datefixed" data-toggle="tooltip" data-trigger="hover" data-placement="top" data-title="Date Fixed" data-original-title="" title="">
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="row">
+                                                                                                <div class="col-md-6">
+                                                                                                    <div class="form-group">
+                                                                                                        <label for="timesheetinput5">Hora de Inicio</label>
+                                                                                                        <div class="position-relative has-icon-left">
+                                                                                                            <input type="time" id="timesheetinput5" class="form-control" name="starttime">
+                                                                                                            <div class="form-control-position">
+                                                                                                                <i class="ft-clock"></i>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="col-md-6">
+                                                                                                    <div class="form-group">
+                                                                                                        <label for="timesheetinput6">Hora Final</label>
+                                                                                                        <div class="position-relative has-icon-left">
+                                                                                                            <input type="time" id="timesheetinput6" class="form-control" name="endtime">
+                                                                                                            <div class="form-control-position">
+                                                                                                                <i class="ft-clock"></i>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>   
+                                                                                            
+                                                                                            <div class="row">
+                                                                                                
+                                                                                                <div class="form-group col-sm-6">
+                                                                                                    <label for="issueinput5">Prioridade</label>
+                                                                                                    <select id="issueinput5" name="priority" class="form-control" data-toggle="tooltip" data-trigger="hover" data-placement="top" data-title="Priority" data-original-title="" title="">
+                                                                                                        <option value="low">Baixa</option>
+                                                                                                        <option value="medium">Média</option>
+                                                                                                        <option value="high">Alta</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                                
+                                                                                                <div class="form-group col-sm-6">
+                                                                                                    <label for="issueinput6">Status Do Chamado</label>
+                                                                                                    <select id="issueinput6" name="status" class="form-control" data-toggle="tooltip" data-trigger="hover" data-placement="top" data-title="Status" data-original-title="" title="">
+                                                                                                        <option value="not started">Em Tratamento</option>
+                                                                                                        <option value="started">Aberto</option>
+                                                                                                        <option value="fixed">Fechado</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="form-group">
+                                                                                                <label for="issueinput8">Observações</label>
+                                                                                                <textarea id="issueinput8" rows="5" class="form-control" name="comments" placeholder="Digite sua Observações" data-toggle="tooltip" data-trigger="hover" data-placement="top" data-title="Escreva sua Obserção" data-original-title="" title=""></textarea>
+                                                                                            </div>
+                                                                                            <div class="row">
+                                                                                                <div class="form-group col-12 mb-2">
+                                                                                                    <label>Selecione Algum Arquivo</label>
+                                                                                                    <label id="projectinput8" class="file center-block">
+                                                                                                        <input type="file" id="file">
+                                                                                                        <span class="file-custom"></span>
+                                                                                                    </label>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        
+                                                                                        <div class="form-actions">
+                                                                                            <button type="button" class="btn btn-warning mr-1">
+                                                                                                <i class="ft-x"></i> Cancelar
+                                                                                            </button>
+                                                                                            <button type="submit" class="btn btn-success">
+                                                                                                <i class="la la-check-square-o"></i> Salvar
+                                                                                            </button>
+                                                                                        </div>
+                                                                                    </form>
+                                                                                </div>
+                                                                                <div class="modal-footer">
+                                                                                    <input type="reset" class="btn btn-outline-secondary btn-lg" data-dismiss="modal" value="Fechar">                                                                                                                
+                                                                                </div>
+                                                                            </form>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                        
+                                                        
+                                                        <div class="card-body">
+                                                            
+                                                            <div class="table">
+                                                                <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
+                                                                    
+                                                                    <div class="row">
+                                                                        <div class="col-sm-12">
+                                                                            <table class="table alt-pagination customer-wrapper dataTable no-footer" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
+                                                                                <thead>
+                                                                                    <tr role="row">
+                                                                                        <th class="sorting_asc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 271px;">Name</th>
+                                                                                        <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Email: activate to sort column ascending" style="width: 565px;">Email</th>
+                                                                                        <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Last Login: activate to sort column ascending" style="width: 320px;">Last Login</th>
+                                                                                        <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Tickets: activate to sort column ascending" style="width: 170px;">Tickets</th>
+                                                                                        <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Options: activate to sort column ascending" style="width: 183px;">Options</th>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody>                                                                                                     
+                                                                                    <tr role="row" class="odd">
+                                                                                        <td class="align-middle sorting_1">
+                                                                                            <div class="name">Angelina David</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="email"><i class="la la-envelope"></i>angelina_david1@gmail.com</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="last-login"><i class="la la-history"></i>10 minutes ago</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="tickets"><i class="la la-tag"></i>2</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="option">
+                                                                                                <a href="#"><i class="la la-pencil-square success"></i></a>
+                                                                                                <a href="#"><i class="la la-trash danger"></i></a>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr role="row" class="even">
+                                                                                        <td class="align-middle sorting_1">
+                                                                                            <div class="name">Black Smith</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="email"><i class="la la-envelope"></i>smith@yahoomail.com</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="last-login"><i class="la la-history"></i>10 minutes ago</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="tickets"><i class="la la-tag"></i>3</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="option">
+                                                                                                <a href="#"><i class="la la-pencil-square success"></i></a>
+                                                                                                <a href="#"><i class="la la-trash danger"></i></a>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr role="row" class="odd">
+                                                                                        <td class="align-middle sorting_1">
+                                                                                            <div class="name">Colin Welch</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="email"><i class="la la-envelope"></i>colin_welch@asana.com</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="last-login"><i class="la la-history"></i>1 Day ago
+                                                                                            </div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="tickets"><i class="la la-tag"></i>12</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="option">
+                                                                                                <a href="#"><i class="la la-pencil-square success"></i></a>
+                                                                                                <a href="#"><i class="la la-trash danger"></i></a>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr role="row" class="even">
+                                                                                        <td class="align-middle sorting_1">
+                                                                                            <div class="name">George Nelson</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="email"><i class="la la-envelope"></i>george_nelson@gmail.com</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="last-login"><i class="la la-history"></i>30 minutes ago</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="tickets"><i class="la la-tag"></i>1</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="option">
+                                                                                                <a href="#"><i class="la la-pencil-square success"></i></a>
+                                                                                                <a href="#"><i class="la la-trash danger"></i></a>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr role="row" class="odd">
+                                                                                        <td class="align-middle sorting_1">
+                                                                                            <div class="name">Jane Andre</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="email"><i class="la la-envelope"></i>jane.andre@gmail.com</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="last-login"><i class="la la-history"></i>46 minutes ago </div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="tickets"><i class="la la-tag"></i>3</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="option">
+                                                                                                <a href="#"><i class="la la-pencil-square success"></i></a>
+                                                                                                <a href="#"><i class="la la-trash danger"></i></a>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr role="row" class="even">
+                                                                                        <td class="align-middle sorting_1">
+                                                                                            <div class="name">John Anderson</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="email"><i class="la la-envelope"></i>john123@yahoomail.com</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="last-login"><i class="la la-history"></i>50 minutes ago</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="tickets"><i class="la la-tag"></i>10</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="option">
+                                                                                                <a href="#"><i class="la la-pencil-square success"></i></a>
+                                                                                                <a href="#"><i class="la la-trash danger"></i></a>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr role="row" class="odd">
+                                                                                        <td class="align-middle sorting_1">
+                                                                                            <div class="name">Jones smith</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="email"><i class="la la-envelope"></i>smith143@asana.com</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="last-login"><i class="la la-history"></i>23 minutes ago</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="tickets"><i class="la la-tag"></i>2</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="option">
+                                                                                                <a href="#"><i class="la la-pencil-square success"></i></a>
+                                                                                                <a href="#"><i class="la la-trash danger"></i></a>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr role="row" class="even">
+                                                                                        <td class="align-middle sorting_1">
+                                                                                            <div class="name">Kail Reack</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="email"><i class="la la-envelope"></i>kail.reack@gmail.com</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="last-login"><i class="la la-history"></i>15 minutes ago</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="tickets"><i class="la la-tag"></i>5</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="option">
+                                                                                                <a href="#"><i class="la la-pencil-square success"></i></a>
+                                                                                                <a href="#"><i class="la la-trash danger"></i></a>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr role="row" class="odd">
+                                                                                        <td class="align-middle sorting_1">
+                                                                                            <div class="name">Mark Luis</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="email"><i class="la la-envelope"></i>mark_041983@outlook.com</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="last-login"><i class="la la-history"></i>17 minutes ago</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="tickets">0</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="option">
+                                                                                                <a href="#"><i class="la la-pencil-square success"></i></a>
+                                                                                                <a href="#"><i class="la la-trash danger"></i></a>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr role="row" class="even">
+                                                                                        <td class="align-middle sorting_1">
+                                                                                            <div class="name">Mark Shawn</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="email"><i class="la la-envelope"></i>mark1991@gmail.com</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="last-login"><i class="la la-history"></i>2 minutes ago</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="tickets"><i class="la la-tag"></i>6</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="option">
+                                                                                                <a href="#"><i class="la la-pencil-square success"></i></a>
+                                                                                                <a href="#"><i class="la la-trash danger"></i></a>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                                
+                                            </div>
+                                            <div role="tabpanel" class="tab-pane" id="tab2" aria-expanded="true" aria-labelledby="base-tab2">
+                                                <form class="form">
+                                                    <div class="form-body">
+                                                        
+                                                        
+                                                        <h4 class="form-section"><i class="ft-clipboard"></i>Tratamento do Chamado</h4>
+                                                        <div class="row">
+                                                            
+                                                            <div class="form-group col-md-6 col-lg-12">
+                                                                
+                                                                <label for="projectinput5">Código</label>
+                                                                <div class="input-group col-mb-3 col-sm-6">
+                                                                    <input type="text" class="form-control" placeholder="código cliente" aria-label="código cliente" 
+                                                                    aria-describedby="button-addon2">
+                                                                    <div class="input-group-append">
+                                                                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Buscar</button>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                            </div>
+                                                            
+                                                            <div class="form-group col-md-6 col-lg-12">
+                                                                
+                                                                <label for="projectinput5">Cliente</label>
+                                                                <div class="input-group col-mb-3">
+                                                                    <input type="text" class="form-control" placeholder="código cliente" aria-label="código cliente" 
+                                                                    aria-describedby="button-addon2">
+                                                                    <div class="input-group-append">
+                                                                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Buscar</button>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                            </div>
+                                                            
+                                                            <div class="form-group col-md-2 md-2">
+                                                                <label for="projectinput4">Solicitante</label>
+                                                                <div class="input-group col-mb-3">
+                                                                    <input type="text" class="form-control" placeholder="código Solicitante" aria-label="código Solicitante" aria-describedby="button-addon2">
+                                                                    <div class="input-group-append">
+                                                                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Buscar</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            
+                                                            
+                                                            <div class="form-group col-md-2 md-2">
+                                                                
+                                                                <label for="issueinput3">Inicio Previsto</label>
+                                                                <input type="datetime-local" id="issueinput3" class="form-control" name="dateopened" data-toggle="tooltip" data-trigger="hover" data-placement="top" data-title="Data Abertura" data-original-title="" title="">
+                                                                
+                                                            </div>
+                                                            
+                                                            <div class="form-group col-md-2 md-2">
+                                                                
+                                                                <label for="issueinput4">Fim Previsto</label>
+                                                                <input type="datetime-local" id="issueinput4" class="form-control" name="dateclosed" data-toggle="tooltip" data-trigger="hover" data-placement="top" data-title="Data Fechamento" data-original-title="" title="">
+                                                                
+                                                            </div>                                                                                        
+                                                            
+                                                            <div class="form-group col-md-2 md-2">
+                                                                
+                                                                <label for="projectinput5">Prioridade</label>
+                                                                <select id="projectinput5" name="interested" class="form-control">
+                                                                    <option value="none" selected="" disabled="">Selecione a Prioridade</option>
+                                                                    <option value="alta">Alta</option>
+                                                                    <option value="media">Media</option>
+                                                                    <option value="media">Baixa</option>
+                                                                    
+                                                                </select>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="form-group col-md-2 md-2">
+                                                                
+                                                                <label for="projectinput5">Complexidade</label>
+                                                                <select id="projectinput5" name="interested" class="form-control">
+                                                                    <option value="none" selected="" disabled="">Selecione a Complexidade</option>
+                                                                    <option value="alta">Alta</option>
+                                                                    <option value="media">Media</option> 
+                                                                    <option value="baixa">Baixa</option>                                                                         
+                                                                </select>
+                                                                
+                                                            </div>
+                                                            
+                                                            <div class="form-group col-md-2 md-2">
+                                                                
+                                                                <label for="projectinput5">Categoria (área)</label>
+                                                                <select id="projectinput5" name="interested" class="form-control">
+                                                                    <option value="none" selected="" disabled="">Selecione o Setor</option>
+                                                                    <option value="serviço">Desenvolvimento</option>
+                                                                    <option value="projeto">Banco de Dados</option>                                                                         
+                                                                    <option value="contrato">Venda</option>                                                                         
+                                                                </select>
+                                                                
+                                                            </div>
+                                                            <div class="form-group col-md-2 md-2">
+                                                                
+                                                                <label for="projectinput5">Tipo</label>
+                                                                <select id="projectinput5" name="interested" class="form-control">
+                                                                    <option value="none" selected="" disabled="">Selecione</option>
+                                                                    <option value="serviço">Serviço</option>
+                                                                    <option value="projeto">Projeto</option>                                                                         
+                                                                    <option value="contrato">Contrato</option>                                                                         
+                                                                </select>
+                                                                
+                                                            </div>
+                                                            <div class="form-group col-md-2 md-2">
+                                                                
+                                                                <label for="projectinput5">Contrato/Projeto</label>
+                                                                <div class="input-group col-mb-3">
+                                                                    <input type="text" class="form-control" placeholder="código cliente" aria-label="código cliente" aria-describedby="button-addon2">
+                                                                    <div class="input-group-append">
+                                                                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Buscar</button>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                            </div>
+                                                            
+                                                            <div class="form-group col-sm-1">
+                                                                <label for="projectinput4">Horas (Usada)</label>
+                                                                <div class="input-group col-mb-3">
+                                                                    <input type="text" class="form-control" placeholder="código responsável" aria-label="código responsável" aria-describedby="button-addon2">                                                                                                            
+                                                                </div>
+                                                            </div> 
+                                                            
+                                                            <div class="form-group col-sm-1">
+                                                                <label for="projectinput4">Horas (Dispo)</label>
+                                                                <div class="input-group col-mb-3">
+                                                                    <input type="text" class="form-control" placeholder="código responsável" aria-label="código responsável" aria-describedby="button-addon2">                                                                                                            
+                                                                </div>
+                                                            </div> 
+                                                            
+                                                            
+                                                            <div class="form-group col-md-2 md-2">
+                                                                <label for="projectinput4">Responsável (TEC)</label>
+                                                                <div class="input-group col-mb-3">
+                                                                    <input type="text" class="form-control" placeholder="código responsável" aria-label="código responsável" aria-describedby="button-addon2">
+                                                                    <div class="input-group-append">
+                                                                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Buscar</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div> 
+                                                            
+                                                        </div>                                                                                    
+                                                        <div class="row">
+                                                            <div class="form-group col-12 sm-2">
+                                                                <label for="projectinput9">
+                                                                    <i class="material-icons">question_answer</i> 
+                                                                    Observacoes
+                                                                </label>
+                                                                <textarea id="projectinput9" rows="5" class="form-control" name="comment" placeholder="Observacoes"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="form-group col-12 sm-2">
+                                                                <label>Seleciona o arquivo</label>
+                                                                <label id="projectinput8" class="file center-block">
+                                                                    <input type="file" id="file">
+                                                                    <span class="file-custom"></span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="form-actions">
+                                                            <button type="button" class="btn btn-warning mr-1">
+                                                                <i class="ft-x"></i> Cancelar
+                                                            </button>
+                                                            <button type="submit" class="btn btn-success">
+                                                                <i class="ft-save"></i> Salvar
+                                                            </button>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="card">
+                                                        <div class="form-actions-control">
+                                                            <h2 class="form-section text-left "><i class="ft-eye"></i> Atividades</h2>
+                                                            <div class="form-group col-sm-3 float-right">
+                                                                
+                                                                <!-- Button trigger modal -->
+                                                                <button type="button" class="btn btn-blue bg-accent-4 btn-min-width float-right" data-toggle="modal" data-target="#bootstrap">
+                                                                    <i class="ft-file-plus"> </i>Nova Atividade
+                                                                </button>
+                                                                
+                                                                <!-- Modal -->
+                                                                <div class="modal fade text-left" id="bootstrap" tabindex="-1" role="dialog" aria-labelledby="myModalLabel35" style="display: none;" aria-hidden="true">
+                                                                    <div class="modal-dialog modal-lg" role="document">
+                                                                        <div class="modal-content">
+                                                                            <div class="modal-header">
+                                                                                <h3 class="modal-title" id="myModalLabel35"> Lançamento de Atividade</h3>
+                                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                                    <span aria-hidden="true">×</span>
+                                                                                </button>
+                                                                            </div>
+                                                                            <form>
+                                                                                <div class="modal-body">
+                                                                                    
+                                                                                    
+                                                                                    <form class="form">
+                                                                                        <div class="form-body floating-label-form-group">
+                                                                                            
+                                                                                            <div class="row">
+                                                                                                
+                                                                                                <div class="form-group col-sm-6">
+                                                                                                    <label for="issueinput1">Issue Title</label>
+                                                                                                    <input type="text" id="issueinput1" class="form-control border-info" placeholder="issue title" name="issuetitle" data-toggle="tooltip" data-trigger="hover" data-placement="top" data-title="Issue Title" data-original-title="" title="">
+                                                                                                </div>
+                                                                                                
+                                                                                                <div class="form-group col-sm-6">
+                                                                                                    <label for="issueinput2">Opened By</label>
+                                                                                                    <input type="text" id="issueinput2" class="form-control border-info" placeholder="opened by" name="openedby" data-toggle="tooltip" data-trigger="hover" data-placement="top" data-title="Opened By" data-original-title="" title="">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            
+                                                                                            <div class="row">
+                                                                                                <div class="col-md-6">
+                                                                                                    <div class="form-group">
+                                                                                                        <label for="issueinput3">Data da Abertura</label>
+                                                                                                        <input type="date" id="issueinput3" class="form-control border-info" name="dateopened" data-toggle="tooltip" data-trigger="hover" data-placement="top" data-title="Date Opened" data-original-title="" title="">
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="col-md-6">
+                                                                                                    <div class="form-group">
+                                                                                                        <label for="issueinput4">Data do Fechamento</label>
+                                                                                                        <input type="date" id="issueinput4" class="form-control border-info" name="datefixed" data-toggle="tooltip" data-trigger="hover" data-placement="top" data-title="Date Fixed" data-original-title="" title="">
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="row">
+                                                                                                <div class="col-md-6">
+                                                                                                    <div class="form-group">
+                                                                                                        <label for="timesheetinput5">Hora de Inicio</label>
+                                                                                                        <div class="position-relative has-icon-left">
+                                                                                                            <input type="time" id="timesheetinput5" class="form-control border-info" name="starttime">
+                                                                                                            <div class="form-control-position">
+                                                                                                                <i class="ft-clock"></i>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="col-md-6">
+                                                                                                    <div class="form-group">
+                                                                                                        <label for="timesheetinput6">Hora Final</label>
+                                                                                                        <div class="position-relative has-icon-left">
+                                                                                                            <input type="time" id="timesheetinput6" class="form-control border-info" name="endtime">
+                                                                                                            <div class="form-control-position">
+                                                                                                                <i class="ft-clock"></i>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>   
+                                                                                            
+                                                                                            <div class="row">
+                                                                                                
+                                                                                                <div class="form-group col-sm-6">
+                                                                                                    <label for="issueinput5">Prioridade</label>
+                                                                                                    <select id="issueinput5" name="priority" class="form-control border-info" data-toggle="tooltip" data-trigger="hover" data-placement="top" data-title="Priority" data-original-title="" title="">
+                                                                                                        <option value="low">Baixa</option>
+                                                                                                        <option value="medium">Média</option>
+                                                                                                        <option value="high">Alta</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                                
+                                                                                                <div class="form-group col-sm-6">
+                                                                                                    <label for="issueinput6">Status</label>
+                                                                                                    <select id="issueinput6" name="status" class="form-control" data-toggle="tooltip" data-trigger="hover" data-placement="top" data-title="Status" data-original-title="" title="">
+                                                                                                        <option value="not started">Not Started</option>
+                                                                                                        <option value="started">Started</option>
+                                                                                                        <option value="fixed">Fixed</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="form-group form-group-style">
+                                                                                                <label for="issueinput8">Observações</label>
+                                                                                                <textarea id="issueinput8" rows="5" class="form-control" name="comments" placeholder="comments" data-toggle="tooltip" data-trigger="hover" data-placement="top" data-title="Escreva sua Obserção" data-original-title="" title=""></textarea>
+                                                                                            </div>
+                                                                                            <div class="row">
+                                                                                                <div class="form-group col-12 mb-2">
+                                                                                                    <label>Selecione Algum Arquivo</label>
+                                                                                                    <label id="projectinput8" class="file center-block">
+                                                                                                        <input type="file" id="file">
+                                                                                                        <span class="file-custom"></span>
+                                                                                                    </label>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        
+                                                                                        <div class="form-actions">
+                                                                                            <button type="button" class="btn btn-warning mr-1">
+                                                                                                <i class="ft-x"></i> Cancelar
+                                                                                            </button>
+                                                                                            <button type="submit" class="btn btn-success">
+                                                                                                <i class="la la-check-square-o"></i> Salvar
+                                                                                            </button>
+                                                                                        </div>
+                                                                                    </form>
+                                                                                </div>
+                                                                                <div class="modal-footer">
+                                                                                    <input type="reset" class="btn btn-outline-secondary btn-lg" data-dismiss="modal" value="close">                                                                                                                
+                                                                                </div>
+                                                                            </form>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                        
+                                                        
+                                                        <div class="card-body">
+                                                            
+                                                            <div class="table">
+                                                                <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
+                                                                    
+                                                                    <div class="row">
+                                                                        <div class="col-sm-12">
+                                                                            <table class="table alt-pagination customer-wrapper dataTable no-footer" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
+                                                                                <thead>
+                                                                                    <tr role="row">
+                                                                                        <th class="sorting_asc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 271px;">Name</th>
+                                                                                        <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Email: activate to sort column ascending" style="width: 565px;">Email</th>
+                                                                                        <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Last Login: activate to sort column ascending" style="width: 320px;">Last Login</th>
+                                                                                        <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Tickets: activate to sort column ascending" style="width: 170px;">Tickets</th>
+                                                                                        <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Options: activate to sort column ascending" style="width: 183px;">Options</th>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody>                                                                                                     
+                                                                                    <tr role="row" class="odd">
+                                                                                        <td class="align-middle sorting_1">
+                                                                                            <div class="name">Angelina David</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="email"><i class="la la-envelope"></i>angelina_david1@gmail.com</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="last-login"><i class="la la-history"></i>10 minutes ago</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="tickets"><i class="la la-tag"></i>2</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="option">
+                                                                                                <a href="#"><i class="la la-pencil-square success"></i></a>
+                                                                                                <a href="#"><i class="la la-trash danger"></i></a>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr role="row" class="even">
+                                                                                        <td class="align-middle sorting_1">
+                                                                                            <div class="name">Black Smith</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="email"><i class="la la-envelope"></i>smith@yahoomail.com</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="last-login"><i class="la la-history"></i>10 minutes ago</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="tickets"><i class="la la-tag"></i>3</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="option">
+                                                                                                <a href="#"><i class="la la-pencil-square success"></i></a>
+                                                                                                <a href="#"><i class="la la-trash danger"></i></a>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr role="row" class="odd">
+                                                                                        <td class="align-middle sorting_1">
+                                                                                            <div class="name">Colin Welch</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="email"><i class="la la-envelope"></i>colin_welch@asana.com</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="last-login"><i class="la la-history"></i>1 Day ago
+                                                                                            </div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="tickets"><i class="la la-tag"></i>12</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="option">
+                                                                                                <a href="#"><i class="la la-pencil-square success"></i></a>
+                                                                                                <a href="#"><i class="la la-trash danger"></i></a>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr role="row" class="even">
+                                                                                        <td class="align-middle sorting_1">
+                                                                                            <div class="name">George Nelson</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="email"><i class="la la-envelope"></i>george_nelson@gmail.com</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="last-login"><i class="la la-history"></i>30 minutes ago</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="tickets"><i class="la la-tag"></i>1</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="option">
+                                                                                                <a href="#"><i class="la la-pencil-square success"></i></a>
+                                                                                                <a href="#"><i class="la la-trash danger"></i></a>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr role="row" class="odd">
+                                                                                        <td class="align-middle sorting_1">
+                                                                                            <div class="name">Jane Andre</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="email"><i class="la la-envelope"></i>jane.andre@gmail.com</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="last-login"><i class="la la-history"></i>46 minutes ago </div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="tickets"><i class="la la-tag"></i>3</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="option">
+                                                                                                <a href="#"><i class="la la-pencil-square success"></i></a>
+                                                                                                <a href="#"><i class="la la-trash danger"></i></a>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr role="row" class="even">
+                                                                                        <td class="align-middle sorting_1">
+                                                                                            <div class="name">John Anderson</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="email"><i class="la la-envelope"></i>john123@yahoomail.com</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="last-login"><i class="la la-history"></i>50 minutes ago</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="tickets"><i class="la la-tag"></i>10</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="option">
+                                                                                                <a href="#"><i class="la la-pencil-square success"></i></a>
+                                                                                                <a href="#"><i class="la la-trash danger"></i></a>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr role="row" class="odd">
+                                                                                        <td class="align-middle sorting_1">
+                                                                                            <div class="name">Jones smith</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="email"><i class="la la-envelope"></i>smith143@asana.com</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="last-login"><i class="la la-history"></i>23 minutes ago</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="tickets"><i class="la la-tag"></i>2</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="option">
+                                                                                                <a href="#"><i class="la la-pencil-square success"></i></a>
+                                                                                                <a href="#"><i class="la la-trash danger"></i></a>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr role="row" class="even">
+                                                                                        <td class="align-middle sorting_1">
+                                                                                            <div class="name">Kail Reack</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="email"><i class="la la-envelope"></i>kail.reack@gmail.com</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="last-login"><i class="la la-history"></i>15 minutes ago</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="tickets"><i class="la la-tag"></i>5</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="option">
+                                                                                                <a href="#"><i class="la la-pencil-square success"></i></a>
+                                                                                                <a href="#"><i class="la la-trash danger"></i></a>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr role="row" class="odd">
+                                                                                        <td class="align-middle sorting_1">
+                                                                                            <div class="name">Mark Luis</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="email"><i class="la la-envelope"></i>mark_041983@outlook.com</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="last-login"><i class="la la-history"></i>17 minutes ago</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="tickets">0</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="option">
+                                                                                                <a href="#"><i class="la la-pencil-square success"></i></a>
+                                                                                                <a href="#"><i class="la la-trash danger"></i></a>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr role="row" class="even">
+                                                                                        <td class="align-middle sorting_1">
+                                                                                            <div class="name">Mark Shawn</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="email"><i class="la la-envelope"></i>mark1991@gmail.com</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="last-login"><i class="la la-history"></i>2 minutes ago</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="tickets"><i class="la la-tag"></i>6</div>
+                                                                                        </td>
+                                                                                        <td class="align-middle">
+                                                                                            <div class="option">
+                                                                                                <a href="#"><i class="la la-pencil-square success"></i></a>
+                                                                                                <a href="#"><i class="la la-trash danger"></i></a>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                                
+                                            </div>
+                                            <div role="tabpanel" class="tab-pane" id="tab3" aria-expanded="true" aria-labelledby="base-tab3">
+                                                <form class="form" >
+                                                    <h4 class="form-section"><i class="ft-layers"></i>Validar Chamado</h4>
+                                                    <div class="row">
+                                                        <div class="form-group col-md-6">
+                                                            <label for="timesheetinput3">Data Cadastro</label>
+                                                            <div class="position-relative has-icon-left">
+                                                                <input type="date" id="timesheetinput3" class="form-control" name="date">
+                                                                <div class="form-control-position">
+                                                                    <i class="ft-message-square"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                            <label for="timesheetinput3">Data Fechamento</label>
+                                                            <div class="position-relative has-icon-left">
+                                                                <input type="date" id="timesheetinput3" class="form-control" name="date">
+                                                                <div class="form-control-position">
+                                                                    <i class="ft-message-square"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="row">
+                                                        <div class="form-group col-md-6 mb-2">
+                                                            <label for="projectinput6 ">Cliente bla</label>
+                                                            <div class="input-group col-mb-3">
+                                                                <input type="text" class="form-control" placeholder="código cliente" aria-label="código cliente" aria-describedby="button-addon2">
+                                                                <div class="input-group-append">
+                                                                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Buscar</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <div class="form-group col-md-6 mb-2">
+                                                            <label for="projectinput6">Tipo de Chamado</label>
+                                                            <select id="projectinput6" name="interested" class="form-control">
+                                                                <option value="none" selected="" disabled="">Escolha o Tipo de Chamado</option>
+                                                                <option value="design">design</option>
+                                                                <option value="development">development</option>
+                                                                <option value="illustration">illustration</option>
+                                                                <option value="branding">branding</option>
+                                                                <option value="video">video</option>
+                                                            </select>
+                                                        </div>
+                                                        
+                                                        <div class="form-group col-md-6 mb-2">
+                                                            <label for="projectinput6">Solicitante</label>
+                                                            <select id="projectinput6" name="interested" class="form-control">
+                                                                <option value="none" selected="" disabled="">Interessado</option>
+                                                                <option value="design">design</option>
+                                                                <option value="development">development</option>
+                                                                <option value="illustration">illustration</option>
+                                                                <option value="branding">branding</option>
+                                                                <option value="video">video</option>
+                                                            </select>
+                                                        </div>
+                                                        
+                                                        
+                                                        
+                                                        <div class="form-group col-md-6 mb-2">
+                                                            <label for="projectinput6">Grupo Atividade</label>
+                                                            <select id="projectinput6" name="interested" class="form-control">
+                                                                <option value="none" selected="" disabled="">Interested in</option>
+                                                                <option value="design">design</option>
+                                                                <option value="development">development</option>
+                                                                <option value="illustration">illustration</option>
+                                                                <option value="branding">branding</option>
+                                                                <option value="video">video</option>
+                                                            </select>
+                                                        </div>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                    </div>
+                                                    
+                                                    
+                                                    <div class="row">
+                                                        <div class="form-group col-12 mb-2">
+                                                            <label for="projectinput9"><i class="material-icons">
+                                                                question_answer
+                                                            </i>  Observacoes</label>
+                                                            <textarea id="projectinput9" rows="5" class="form-control" name="comment" placeholder="Observacoes"></textarea>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    
+                                                    <div class="row">
+                                                        <div class="form-group col-12 mb-2">
+                                                            <label>Seleciona o arquivo</label>
+                                                            <label id="projectinput8" class="file center-block">
+                                                                <input type="file" id="file">
+                                                                <span class="file-custom"></span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    
+                                                    <div class="form-actions">
+                                                        <button type="button" class="btn btn-warning mr-1">
+                                                            <i class="ft-x"></i> Cancelar
+                                                        </button>
+                                                        <button type="submit" class="btn btn-success">
+                                                            <i class="ft-save"></i> Salvar
+                                                        </button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    <!-- // Basic form layout section end -->
+                </div>
+            <!-- // Basic form layout section end -->
+        </div>
+    </div>
+</div>
